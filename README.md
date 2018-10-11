@@ -1,6 +1,6 @@
 # Proof-of-Vote
 
-### [**United.vote**](https://united.vote) uses special cryptography to allow public auditing of the vote record.
+### [**Liquid US**](https://liquid.us) uses special cryptography to allow public auditing of the vote record.
 
 This system, known as **Proof-of-Vote**:
 
@@ -8,7 +8,7 @@ This system, known as **Proof-of-Vote**:
 2. Allows anyone to independently tabulate all of the votes themselves.
 3. Preserves individual voter privacy.
 
-For every vote cast by a [verified person](https://united.vote/get_started/verification) on United, a record is published with the `Position` and a unique `Vote ID`.
+For every vote cast by a [verified person](https://liquid.us/get_started/verification) on Liquid, a record is published with the `Position` and a unique `Vote ID`.
 
 ![example-record](./example.png)
 
@@ -26,7 +26,7 @@ If a vote is updated, the old vote is removed and a new vote is added at the bot
 
 ## Vote Watchers
 
-[**United.vote**](https://united.vote) allows you to change your vote, but this git repository makes it transparent when votes are updated.
+[**Liquid**](https://liquid.us) allows you to change your vote, but this git repository makes it transparent when votes are updated.
 
 ### Help strengthen the legitimacy powering the Proof-of-Vote system.
 
@@ -42,7 +42,7 @@ Become an automatic mirror of this repository. Each new mirror helps to decentra
   git clone https://github.com/{YOUR_FORK}/proof-of-vote.git && cd proof-of-vote
   ```
 
-3. Install the automated [mirror script](/update-united-mirror.sh) to run every 30 minutes:
+3. Install the automated [mirror script](/update-liquid-mirror.sh) to run every 30 minutes:
 
   ```sh
   ./install-cronjob.sh

@@ -5,7 +5,7 @@ set -e
 
 # Make sure the update script runs without issue.
 echo "Testing update script... \c"
-./update-united-mirror.sh
+./update-liquid-mirror.sh
 echo "Success"
 
 # Get path of current script
@@ -30,13 +30,13 @@ fi
 crontab -l > tmpcron
 
 # Install new cronjob to run every 30 minutes
-echo "*/30 * * * * $cur_dir/update-united-mirror.sh" >> tmpcron
+echo "*/30 * * * * $cur_dir/update-liquid-mirror.sh" >> tmpcron
 crontab tmpcron
 
 # Remove temp cron file
 rm tmpcron
 
-echo "\nSucessfully installed update-united-mirror.sh cronjob."
+echo "\nSucessfully installed update-liquid-mirror.sh cronjob."
 
 # TIP: Disable mail alerts by prepending the following to the top of your crontab
 # MAILTO=""
