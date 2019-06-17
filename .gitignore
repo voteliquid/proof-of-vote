@@ -1,4 +1,4 @@
 node_modules/
 package-lock.json
 build.js
-PoV.sh
+start.sh
